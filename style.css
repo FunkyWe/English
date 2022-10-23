@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: absolute;
+  height: 950px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url(./img/kazahstan.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  z-index: 1000;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 0.5fr 0.9fr;
+  grid-template-areas: ". header-nav header-nav  .";
+  grid-template-rows: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav {
+  display: grid;
+  grid-area: header-nav;
+  grid-template-columns: repeat(4, auto);
+}
+
+.header-nav a {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fafafa;
+  transition: 0.6s linear;
+}
+
+.header-nav a:hover {
+  color: #680202;
+  text-decoration: underline #680202;
+}
+
+.top-text {
+  color: #fafafa;
+}
+.main-text {
+  font-size: 150px;
+  letter-spacing: 5px;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: #000;
+}
+
+.main-text-sub {
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.position-all {
+  color: gray;
+  transition: 0.6s linear;
+  max-width: 500px;
+  max-height: 210px;
+}
+
+.first {
+  margin-left: 250px;
+  margin-top: -20px;
+}
+
+.first:hover {
+  color: #fafafa;
+}
+
+.second {
+  margin-left: 1150px;
+  margin-top: -127px;
+}
+
+.second:hover {
+  color: #fafafa;
+}
+
+.third {
+  margin-left: 327px;
+  margin-top: -70px;
+  transition: 0.6s linear;
+  max-width: 500px;
+}
+
+.third:hover {
+  color: #fafafa;
+}
+
+.four {
+  margin-left: 500px;
+  margin-top: -110px;
+}
+
+.four:hover {
+  color: #fafafa;
+}
+
+.five {
+  margin-left: 1200px;
+  margin-top: -20px;
+}
+
+.five:hover {
+  color: #fafafa;
+}
+
+.six {
+  margin-left: 1000px;
+  margin-top: -75px;
+}
+
+.six:hover {
+  color: #fafafa;
+}
