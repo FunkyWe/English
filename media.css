@@ -31,6 +31,28 @@
   }
 }
 
+@media (max-width: 1366px) {
+  .main-text {
+    font-size: 75px;
+  }
+  .four {
+    margin-top: -20px;
+  }
+  .second {
+    margin-top: -95px;
+  }
+  .five {
+    margin-top: -30px;
+  }
+  .third {
+    margin-top: -55px;
+    margin-left: 230px;
+  }
+  .six {
+    margin-left: 900px;
+  }
+}
+
 @media (max-width: 1260px) {
   .six {
     margin-left: 600px;
@@ -218,5 +240,11 @@
   .six {
     margin-left: 150px;
     margin-top: -20px;
+  }
+}
+
+@media (max-width: 1785px) {
+  .tour-part {
+    margin-left: 0px;
   }
 }
