@@ -1,250 +1,30 @@
-@media (max-width: 1600px) {
-  .five {
-    margin-left: 1050px;
-  }
-  .six {
-    margin-left: 900px;
-  }
-  .main-text {
-    font-size: 140px;
-  }
-}
-
-@media (max-width: 1458px) {
-  .second {
-    margin-left: 900px;
-  }
-  .third {
-    margin-left: 350px;
-  }
-  .four {
-    margin-left: 350px;
-  }
-  .five {
-    margin-left: 750px;
-  }
-  .six {
-    margin-left: 700px;
-  }
-  .main-text {
-    font-size: 130px;
-  }
-}
-
-@media (max-width: 1366px) {
-  .main-text {
-    font-size: 75px;
-  }
-  .four {
-    margin-top: -20px;
-  }
-  .second {
-    margin-top: -95px;
-  }
-  .five {
-    margin-top: -30px;
-  }
-  .third {
-    margin-top: -55px;
-    margin-left: 230px;
-  }
-  .six {
-    margin-left: 900px;
-  }
-}
-
-@media (max-width: 1260px) {
-  .six {
-    margin-left: 600px;
-  }
-  .main-text {
-    font-size: 120px;
-  }
-}
-
-@media (max-width: 1158px) {
-  .second {
-    margin-left: 750px;
-  }
-  .third {
-    margin-left: 250px;
-  }
-  .four {
-    margin-left: 350px;
-    margin-top: -50px;
-  }
-  .five {
-    margin-left: 650px;
-  }
-  .six {
-    margin-left: 500px;
-    margin-top: -50px;
-  }
-  .main-text {
-    font-size: 110px;
-  }
-}
-
-@media (max-width: 980px) {
-  .main-text {
-    font-size: 75px;
-  }
-  .header-nav a {
-    font-size: 16px;
-  }
-  .second {
-    margin-left: 650px;
-    margin-top: -80px;
-  }
-  .third {
-    margin-left: 300px;
-    margin-top: 0px;
-  }
-  .four {
-    margin-left: 300px;
-    margin-top: -10px;
-  }
-  .five {
-    margin-left: 450px;
-    margin-top: -20px;
-  }
-  .six {
-    margin-top: -30px;
-  }
-}
-
-@media (max-width: 800px) {
-  .main-text {
-    font-size: 60px;
-  }
-  .header-nav a {
-    font-size: 14px;
-  }
-  .first {
-    margin-left: 145px;
-    margin-top: 0px;
-  }
-  .second {
-    margin-left: 400px;
-    margin-top: -40px;
-  }
-  .third {
-    margin-left: 145px;
-  }
-  .four {
-    margin-left: 145px;
-    margin-top: 10px;
-  }
-  .five {
-    margin-left: 400px;
-  }
-  .six {
-    margin-left: 400px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 660px) {
-  .main-text {
-    font-size: 55px;
-  }
-}
-
-@media (max-width: 622px) {
-  .header {
-    grid-template-columns: 0.2fr 2fr 0.2fr;
-  }
-  .first {
-    font-size: 40px;
-  }
-  .first {
-    margin-left: 100px;
-    margin-top: 0px;
-  }
-  .second {
-    margin-left: 300px;
-    margin-top: -40px;
-  }
-  .third {
-    margin-left: 100px;
-  }
-  .four {
-    margin-left: 100px;
-    margin-top: 10px;
-  }
-  .five {
-    margin-left: 300px;
-  }
-  .six {
-    margin-left: 300px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 525px) {
-  .header {
-    grid-template-columns: 0.1fr 2fr 0.1fr;
-  }
-  .first {
-    font-size: 40px;
-  }
-  .first {
-    margin-left: 50px;
-    margin-top: 0px;
-  }
-  .second {
-    margin-left: 200px;
-    margin-top: -40px;
-  }
-  .third {
-    margin-left: 50px;
-  }
-  .four {
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-  .five {
-    margin-left: 200px;
-  }
-  .six {
-    margin-left: 200px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 430px) {
-  .header {
-    grid-template-columns: 0.1fr 2fr 0fr;
-  }
-  .first {
-    font-size: 40px;
-  }
-  .first {
-    margin-left: 50px;
-    margin-top: 0px;
-  }
-  .second {
-    margin-left: 150px;
-    margin-top: -40px;
-  }
-  .third {
-    margin-left: 50px;
-  }
-  .four {
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-  .five {
-    margin-left: 150px;
-  }
-  .six {
-    margin-left: 150px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 1785px) {
-  .tour-part {
-    margin-left: 0px;
-  }
+@media (max-width: 1366px){
+    .nav-link{
+        font-size: 1.4vw;
+    }
+    .main-title{
+        font-size: 3.5vw;
+    }
+    .main-subtitle{
+        font-size: 1.4vw;
+    }
+    .wrapper-one h2{
+        font-size: 2.5vw;
+    }
+    .wrapper-three-section h3{
+        font-size: 1.3vw;
+        line-height: 30px;
+    }
+    .wrapper-three-section{
+        height: 55vh;
+    }
+    .wrapper-seven img{
+        width: 45vw;
+    }
+    input{
+        width: 30vw;
+    }
+    #course-select{
+        width: 30vw;
+    }
 }
