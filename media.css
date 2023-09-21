@@ -1,9 +1,12 @@
-@media (max-width: 1365px){
+@media (max-width: 1366px){
     .nav-link{
         font-size: 1.4vw;
     }
     .main-title{
-        font-size: 3.5vw;
+        font-size: 2.5vw;
+    }
+    .container{
+        margin-top: 20px;
     }
     .main-subtitle{
         font-size: 1.4vw;
@@ -11,12 +14,36 @@
     .wrapper-one h2{
         font-size: 2.5vw;
     }
+    .problem-section{
+        padding: 20px;
+    }
+    .problem-img{
+        width: 90%;
+    }
+    .subtitle{
+        font-size: 3.8vw;
+        text-align: center;
+        margin-left: 0;
+    }
     .wrapper-three-section h3{
         font-size: 1.3vw;
         line-height: 30px;
     }
     .wrapper-three-section{
-        height: 55vh;
+        height: 60vh;
+        padding: 20px;
+    }
+    .wrapper-three-section h3{
+        font-size: 1.2vw;
+        margin-bottom: 10px;
+    }
+    .wrapper-three-section p{
+        font-size: 1vw;
+    }
+    .wrapper-three-button{
+        height: 8vh;
+        font-size: 1.8vw;
+        bottom: 6%;
     }
     .wrapper-seven img{
         width: 45vw;
